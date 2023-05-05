@@ -1,3 +1,5 @@
-# Example_config
+Custom config for NvChad
 
-This can be used as an example custom config for NvChad, this branch is a minimal one. Do check the feature_full branch if you need all the ease in your config.
+This supports Typescript out of the box along with Vue. Small changes from default config for personal preference. 
+
+To use this config, clone the repository into to the lua folder of NvChad as `custom`.  
