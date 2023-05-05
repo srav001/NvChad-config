@@ -7,3 +7,7 @@ To use this config, clone the repository into to the lua folder of NvChad as `cu
 ```sh
 git clone git@github.com:srav001/NvChad-config.git custom
 ```
+
+NvChad Install Instructions
+
+https://nvchad.com/docs/quickstart/install
