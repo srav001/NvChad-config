@@ -1,7 +1,7 @@
 ---@type NvPluginSpec
 local spec = {
   "folke/trouble.nvim",
-  cmd = {"Trbl", "TrblTogl"},
+  cmd = {"Trouble", "TroubleToggle"},
   config = true,
 }
 
