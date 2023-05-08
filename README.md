@@ -5,7 +5,7 @@ This supports Typescript out of the box along with Vue. Small changes from defau
 To use this config, clone the repository into to the lua folder of NvChad as `custom`.  
 
 ```sh
-git clone git@github.com:srav001/NvChad-config.git custom
+git clone https://github.com/srav001/NvChad-config.git custom
 ```
 
 ## NvChad Install Instructions
