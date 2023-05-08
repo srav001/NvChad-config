@@ -1,3 +1,7 @@
+-- NOT USED IN THIS CONFIG CURRENTLY
+
+
+
 local setup = function(_, opts)
   local on_attach = require("plugins.configs.lspconfig").on_attach
   local capabilities = require("plugins.configs.lspconfig").capabilities
