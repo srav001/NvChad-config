@@ -11,3 +11,9 @@ git clone git@github.com:srav001/NvChad-config.git custom
 ## NvChad Install Instructions
 
 https://nvchad.com/docs/quickstart/install
+
+## To remove nvim
+
+```sh
+rm -rf ~/.config/nvim && rm -rf mv ~/.local/share/nvim && rm -rf mv ~/.local/state/nvim && rm -rf mv ~/.cache/nvim
+```
