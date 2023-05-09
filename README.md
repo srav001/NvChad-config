@@ -28,7 +28,7 @@ brew install ripgrep
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 ```
 
-## To remove nvim (Mac OS)
+## To remove nvim (Mac OS & Linux)
 
 ```sh
 rm -rf ~/.config/nvim && rm -rf mv ~/.local/share/nvim && rm -rf mv ~/.local/state/nvim && rm -rf mv ~/.cache/nvim
