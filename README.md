@@ -10,7 +10,7 @@ git clone https://github.com/srav001/NvChad-config.git custom
 
 ## NvChad Install Instructions
 
-### Prerequisite
+### Prerequisites :
 
 LazyGit
 ```sh
