@@ -1,6 +1,6 @@
 local spec = {
   "simrat39/symbols-outline.nvim",
-  cmd = "Symblotln",
+  cmd = "SymbolsOutline",
   config = true,
 }
 
