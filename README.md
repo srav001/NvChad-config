@@ -12,6 +12,19 @@ git clone https://github.com/srav001/NvChad-config.git custom
 
 https://nvchad.com/docs/quickstart/install
 
+### Prerequisite
+
+LazyGit
+```sh
+brew install jesseduffield/lazygit/lazygit
+```
+
+RipGrep
+```sh
+brew install ripgrep
+```
+
+
 ### Quick setup 
 ```sh
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
