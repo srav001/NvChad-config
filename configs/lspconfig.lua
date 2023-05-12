@@ -6,7 +6,7 @@ vim.diagnostic.config {
   update_in_insert = true,
 }
 
-local servers = { --[[ "html", "cssls", ]] "tsserver", "volar", "eslint", "tailwindcss" }
+local servers = { --[[ "html", "cssls", ]] --[[ "tailwindcss" ]] "tsserver", "eslint", "volar" }
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
@@ -14,3 +14,9 @@ for _, lsp in ipairs(servers) do
     capabilities = capabilities,
   }
 end
+
+vim.api.nvim_create_autocmd('BufWritePre', {
+  pattern = { '*.tsx', '*.ts', '*.jsx', '*.js', '*.vue', '*.svelte' },
+  command = 'silent! EslintFixAll',
+  group = vim.api.nvim_create_augroup('MyAutocmdsForEslintAutoFix', {}),
+})
