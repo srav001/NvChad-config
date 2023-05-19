@@ -54,6 +54,29 @@ local plugins = {
   { import = "custom.extras.symbols-outline" },
   { import = "custom.extras.copilot" },
   { import = "custom.extras.trouble" },
-}
 
+  {
+    "echasnovski/mini.indentscope",
+    version = "*",
+    config = function()
+      require('mini.indentscope').setup()
+    end,
+    lazy = false
+  },
+  {
+    "echasnovski/mini.move",
+    version = "*",
+    config = function()
+      require('mini.move').setup()
+    end,
+    lazy = false
+  },
+  {
+    "rmagatti/auto-session",
+    config = function()
+      require("auto-session").setup()
+    end,
+    lazy = false,
+  },
+}
 return plugins
