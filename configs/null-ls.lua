@@ -7,7 +7,7 @@ end
 local b = null_ls.builtins
 local sources = {
   b.formatting.prettier.with {
-    filetypes = { "html", "markdown", "css", "ts", "tsx", "js", "jsx", "vue", "svelte", "typescript", "javascript" },
+    filetypes = { "html", "markdown", "css", "ts", "tsx", "js", "jsx", "vue", "svelte", "typescript", "javascript", "json" },
   },
 }
 
