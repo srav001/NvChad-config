@@ -1,6 +1,7 @@
 ---@type ChadrcConfig
 local M = {}
 
+vim.opt.mouse = "a"
 vim.wo.relativenumber = true
 local highlights = require "custom.highlights"
 
