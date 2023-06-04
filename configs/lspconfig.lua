@@ -6,7 +6,7 @@ vim.diagnostic.config {
   update_in_insert = true,
 }
 
-local servers = { --[[ "html", "cssls", ]] --[[ "tailwindcss" ]] "tsserver", "eslint", "volar" }
+local servers = { --[[ "html", "cssls", ]] --[[ "tailwindcss", ]] "tsserver", "eslint", "volar" }
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {

@@ -26,7 +26,7 @@ M.mason = {
     "eslint-lsp",
     "vue-language-server",
     "typescript-language-server",
-    "tailwindcss-language-server",
+    -- "tailwindcss-language-server",
     "prettier",
 
   },
