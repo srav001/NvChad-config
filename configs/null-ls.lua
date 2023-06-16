@@ -7,7 +7,7 @@ end
 local b = null_ls.builtins
 local sources = {
   b.formatting.prettier.with {
-    filetypes = { "html", "markdown", "css", "scss", "ts", "tsx", "js", "jsx", "vue", "svelte", "typescript", "javascript", "json" },
+    filetypes = { "html", "markdown", "css", "scss", "ts", "tsx", "js", "jsx", "vue", "svelte", "typescript", "javascript", "json", "astro" },
   },
 }
 
@@ -21,6 +21,7 @@ local lsp_formatting = function(bufnr)
   }
 end
 
+-- Auto-format with save using Lsp
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 null_ls.setup {
   debug = true,
